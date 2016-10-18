@@ -23,25 +23,33 @@
             android:text="Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button" />
+            android:id="@+id/button"
+            android:onClick="nextCelebrity"
+            android:tag="0"/>
 
         <Button
             android:text="Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button2" />
+            android:id="@+id/button1"
+            android:onClick="nextCelebrity"
+            android:tag="1" />
 
         <Button
             android:text="Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button3" />
+            android:id="@+id/button2"
+            android:onClick="nextCelebrity"
+            android:tag="2" />
 
         <Button
             android:text="Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button4" />
+            android:id="@+id/button3"
+            android:onClick="nextCelebrity"
+            android:tag="3" />
     </LinearLayout>
 
     <ImageView
